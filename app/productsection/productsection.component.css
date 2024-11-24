@@ -1,0 +1,241 @@
+
+/* General Spacing */
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+/* Image Sizing */
+.img-size img {
+  max-width: 90%;
+  padding-bottom: 50px;
+  margin-left: 60px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Benefits Section */
+
+.custom-h2 {
+  color: var(--secondary-color);
+  font-weight: bold;
+  line-height: 1.4;
+  font-size: 2rem; /* Responsive font size */
+  margin-bottom: 40px;
+}
+.cubi{
+  margin-right: 10px;
+}
+.custom-h5 {
+  color: var(--text-color);
+  font-weight: 500;
+  text-align: start;
+  font-size: 1.5rem; /* Responsive font size */
+  margin-top: 25px;
+}
+.pb-5{
+  margin-top: 25px;
+}
+.text-body {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+/* .tab{
+  margin-top: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  color: #2B2B2B;
+  width: 40px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  position: relative;
+  padding-bottom: 5px;
+  background-image: linear-gradient(#5A7075, #5A7075);
+  background-position: 0 100%;
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease;
+}
+
+.categoryg1:hover {
+  background-size: 100% 2px;
+} */
+
+/* ------------------------------------------------------------------------- */
+/* Product Section */
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  justify-content:center;
+}
+
+.tab {
+  padding: 10px 8px;
+  background-color: #CBCDC2;
+  color: #2B2B2B;
+  width: 100px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  position: relative;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  background-image: linear-gradient(#5A7075, #5A7075);
+  background-position: 0 100%;
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease;
+}
+.tab:hover{
+  background-size: 100% 2px;
+}
+.tap:focus{
+  border-bottom: solid 1px black;
+}
+.tab-content {
+  padding: 20px;
+  /* background-color: #f0f0f0; */
+  /* border-radius: 5px; */
+}
+
+
+
+.card {
+  border: none;
+  background-color: #CBCDC2;
+
+}
+
+.card-body {
+  background-color: #CBCDC2;
+  text-align: start;
+}
+
+.product-type {
+  color: var(--secondary-color);
+  font-size: 16px;
+}
+
+.product-name {
+  color: var(--secondary-color);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.buy-link {
+  color: var(--secondary-color);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .custom-h2 {
+      font-size: 1.75rem;
+  }
+  .custom-h5 {
+      font-size: 1.25rem;
+  }
+  .text-body {
+      font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Stack benefits section on top of each other */
+  .col-md-6 {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .card-body {
+    background-color: #CBCDC2;
+    text-align: center;
+  }
+  /* Reduce spacing for smaller screens */
+  .pb-100 {
+      padding-bottom: 50px;
+  }
+
+  .custom-h2 {
+      font-size: 1.5rem;
+      margin-top: 75px;
+  }
+
+  .custom-h5 {
+      font-size: 1.1rem;
+  }
+
+  .text-body {
+      font-size: 0.9rem;
+  }
+
+  /* Adjust product card size */
+  .col-md-4 {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Make images smaller on mobile */
+  .img-size img {
+      max-width: 100%;
+      height: auto;
+  }
+
+  /* Adjust text size for mobile screens */
+  .custom-h2 {
+      font-size: 1.25rem;
+      margin-top: 75px;
+  }
+
+  .card-body {
+    background-color: #CBCDC2;
+    text-align: center;
+  }
+
+  .custom-h5 {
+      font-size: 1rem;
+  }
+
+  .text-body {
+      font-size: 0.85rem;
+  }
+
+  .product-name {
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Further adjust text and spacing for mobile */
+  .custom-h2 {
+      font-size: 1.1rem;
+  }
+
+  .custom-h5 {
+      font-size: 0.9rem;
+  }
+
+  .text-body {
+      font-size: 0.8rem;
+  }
+
+  .product-name {
+      font-size: 18px;
+  }
+
+  /* Adjust product cards on small screens */
+  .card-body {
+      padding: 10px;
+  }
+}

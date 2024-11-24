@@ -1,0 +1,70 @@
+.custom-bg {
+  background-color: #CBCDC2;
+}
+
+.get {
+  font-weight: bold;
+  font-size: 2rem; /* Adjusted for better visibility */
+  margin-bottom: 60px;
+  color: #2B2B2B;
+}
+
+.container {
+  width: 100%;
+  margin: auto; /* Centered the container */
+  padding: 2rem; /* Added padding for spacing */
+  position: relative;
+  margin-top: 150px;
+  margin-bottom: 160px;
+}
+.form-label{
+  font-weight: 500;
+  font-size: 22px;
+}
+.left {
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  color: rgb(50, 48, 48);
+}
+
+.form-control {
+  background: #cbcdc2;
+  color: #000;
+  font-size: 1rem; /* Changed for consistency */
+  border: 1px solid #000;
+}
+
+.btn {
+  color: #f3f5f6;
+  background-color: #5a7075;
+  border: 1px solid #5a7075;
+  padding: 10px 18px; /* Added padding for better button size */
+  cursor: pointer; /* Changed cursor to pointer on hover */
+  transition: background-color 0.3s; /* Added transition for button hover */
+  width: 50%;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #4a585c; /* Darker shade on hover */
+}
+.fontaswm{
+  margin-top: 17px;
+}
+.contact-info {
+  margin-bottom: 48px; /* Added spacing between contact info */
+}
+
+@media (max-width: 769px) {
+  .btn {
+    margin: auto;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+}

@@ -1,0 +1,188 @@
+<div class="custom-bg">
+  <app-nav></app-nav>
+  <div class="container">
+
+    <div id="toast-warning" class="toast align-items-center border-0 position-fixed top-0 start-50 translate-middle-x" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex bg-toast">
+        <div class="toast-body Outfit">
+          <i class="fa-solid fa-exclamation me-2 btn-fa"></i>
+          {{ toastMessage }}
+        </div>
+        <button type="button" id="btnclose" class="btn-close btn-close-white me-2" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+    </div>
+
+        <div class="title">
+          <h1>Payment Method</h1>
+          <p>Secure, fast, and convenient payment options for a seamless checkout.</p>
+      </div>
+      <section>
+          <div class="mythod_pay">
+              <div class="answers">
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Google pay
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <label for="inputPassword5" class="form-label">Card Holder Name</label>
+                          <input type="text" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Enter Your Card Name">
+
+                          <label for="inputPassword5" class="form-label">Card Number</label>
+                          <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Enter Your Card Number">
+                        <!--  -->
+                        <div class="coco">
+                          <div class="row g-2 align-items-center">
+                              <div class="col-auto">
+                                <label for="inputPassword6" class="col-form-label">Expery Date</label>
+                              </div>
+                              <div class="col-auto">
+                                <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Enter Your Expery Date">
+                              </div>
+                            </div>
+                            <div class="row g-2 align-items-center">
+                              <div class="col-auto">
+                                <label for="inputPassword6" class="col-form-label">CVV</label>
+                              </div>
+                              <div class="col-auto">
+                                <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Enter Your CVV">
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Apple Pay
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <label for="inputPassword5" class="form-label">Card Holder Name</label>
+                          <input type="text" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Enter Your Card Name">
+
+                          <label for="inputPassword5" class="form-label">Card Number</label>
+                          <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Enter Your Card Number">
+                        <!--  -->
+                        <div class="coco">
+                          <div class="row g-2 align-items-center">
+                              <div class="col-auto">
+                                <label for="inputPassword6" class="col-form-label">Expery Date</label>
+                              </div>
+                              <div class="col-auto">
+                                <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Enter Your Expery Date">
+                              </div>
+                            </div>
+                            <div class="row g-2 align-items-center">
+                              <div class="col-auto">
+                                <label for="inputPassword6" class="col-form-label">CVV</label>
+                              </div>
+                              <div class="col-auto">
+                                <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Enter Your CVV">
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Insta Pay
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <label for="inputPassword5" class="form-label">Card Holder Name</label>
+                          <input type="text" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Enter Your Card Name">
+
+                          <label for="inputPassword5" class="form-label">Card Number</label>
+                          <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Enter Your Card Number">
+                        <!--  -->
+                        <div class="coco">
+                          <div class="row g-2 align-items-center">
+                              <div class="col-auto">
+                                <label for="inputPassword6" class="col-form-label">Expery Date</label>
+                              </div>
+                              <div class="col-auto">
+                                <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Enter Your Expery Date">
+                              </div>
+                            </div>
+                            <div class="row g-2 align-items-center">
+                              <div class="col-auto">
+                                <label for="inputPassword6" class="col-form-label">CVV</label>
+                              </div>
+                              <div class="col-auto">
+                                <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Enter Your CVV">
+                              </div>
+                            </div>
+                        </div>
+                  </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        Insta Pay
+                        </button>
+                      </h2>
+                      <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <label for="inputPassword5" class="form-label">Card Holder Name</label>
+                          <input type="text" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Enter Your Card Name">
+
+                          <label for="inputPassword5" class="form-label">Card Number</label>
+                          <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Enter Your Card Number">
+                        <!--  -->
+                        <div class="coco">
+                          <div class="row g-2 align-items-center">
+                              <div class="col-auto">
+                                <label for="inputPassword6" class="col-form-label">Expery Date</label>
+                              </div>
+                              <div class="col-auto">
+                                <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Enter Your Expery Date">
+                              </div>
+                            </div>
+                            <div class="row g-2 align-items-center">
+                              <div class="col-auto">
+                                <label for="inputPassword6" class="col-form-label">CVV</label>
+                              </div>
+                              <div class="col-auto">
+                                <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Enter Your CVV">
+                              </div>
+                            </div>
+                        </div>
+                  </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          <div class="order">
+              <h3>Order Summary</h3>
+              <div class="price">
+                  <p >Subtotal</p>
+                  <span>000 EGP</span>
+                  <p >Discount (-20%)</p>
+                  <span>000 EGP</span>
+                  <p >Delivery Fee</p>
+                  <span>000 EGP</span>
+              </div>
+              <hr>
+              <h5>
+                  <p >Total</p>
+                  <span>000 EGP</span>
+              </h5>
+
+              <button class="btn btn" id="button" (click)="show()">Payment Confirmation </button>
+          </div>
+      </section>
+  </div>
+  <app-footer></app-footer>
+</div>

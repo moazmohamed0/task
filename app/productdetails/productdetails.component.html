@@ -1,0 +1,93 @@
+<div class="custom-bg">
+  <app-nav></app-nav>
+  <div class="container">
+
+      <div class="imgface">
+        <img [src]="'assets/' + product.image" alt="not loaded" />
+      </div>
+    <!-- product details -->
+    <div class="product_details">
+      <div class="details">
+        <h1 class="Outfit" class="namemarg">{{product.name}}</h1>
+        <div class="description">
+          <!-- about proudect -->
+          <div class="section1">
+            <p class="lh-base Outfit">
+              {{product.description}}
+              <br />
+              <br />
+              <br />
+              <br />
+            </p>
+          </div>
+          <!-- shipping & returns -->
+          <div class="section2">
+            <div class="tabs">
+              <button class="Outfit"
+                (click)="selectedTab = 'shipping'"
+                [class.active]="selectedTab === 'shipping'"
+              >
+                Shipping
+              </button>
+              <button class="Outfit"
+                (click)="selectedTab = 'returns'"
+                [class.active]="selectedTab === 'returns'"
+              >
+                Returns
+              </button>
+            </div>
+
+            <div *ngIf="selectedTab === 'shipping'" class="tab-content">
+              <p class="Outfit">
+                <strong class="Outfit">Estimated Delivery Time:</strong> 5-7 business days.
+              </p>
+              <p class="Outfit">
+                <strong class="Outfit">Shipping Cost:</strong> Free shipping on orders over
+                $500.
+              </p>
+              <p class="Outfit">
+                <strong class="Outfit">Delivery Options:</strong> Standard delivery or
+                white-glove delivery available.
+              </p>
+              <p class="Outfit">
+                <strong class="Outfit">Shipping Locations:</strong> Ships within Egypt
+                (International shipping available).
+              </p>
+            </div>
+
+            <div *ngIf="selectedTab === 'returns'" class="tab-content">
+              <!-- محتوى قسم الـ Returns هنا -->
+                <p class="Outfit"><strong class="Outfit">Return Window:</strong> 30-day hassle-free returns</p>
+                <p class="Outfit"><strong class="Outfit">Condition for Returns:</strong> Must be in original packaging and unused condition</p>
+                <p class="Outfit"><strong class="Outfit">Restocking Fee:</strong> No restocking fee for returns</p>
+                <p class="Outfit"><strong class="Outfit">Refund Processing:</strong> Refund processed within 5-7 business days after the product is received and inspected</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- about buy the proudect -->
+      <div class="buy">
+        <div class="product-card">
+          <h2>{{product.price}} EGP</h2>
+          <!-- rate -->
+          <div class="rating Outfit">
+            <span [innerHTML]="generateStarIconsproduct(product.rating, 5)"></span>
+          </div>
+          <!-- <div><strong> - 20 reviews</strong></div> -->
+          <!-- quantity -->
+          <div class="quantity">
+            <label for="quantity" class="Outfit quantityname">Quantity</label>
+            <div class="quantity-controls">
+              <button (click)="decreaseQuantity()" class="btncount" [disabled]="quantity <= 1">-</button>
+              <input id="quantity" class="quantityform" type="number" min="1" [value]="quantity" readonly />
+              <button class="btncount" (click)="increaseQuantity()">+</button>
+            </div>
+          </div>
+          <button class="add-to-cart btn Outfit" (click)="addcart()">Add To Cart</button>
+          <button class="buy-now btn Outfit" (click)="buynow()">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>
+</div>

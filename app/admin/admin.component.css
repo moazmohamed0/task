@@ -1,0 +1,175 @@
+.custom-bg {
+  background-color: #CBCDC2;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.container{
+  background-color: #CBCDC2;
+}
+.boxz{
+  background-color: #CBCDC2;
+}
+.tx1{
+  font-size: 35px;
+  font-weight: 800;
+}
+.tx2{
+  font-size: 28px;
+  font-weight: 500;
+}
+.btns{
+padding: 13px;
+border-radius: 12px;
+font-size: 18px;
+font-weight: 500;
+line-height: 22.68px;
+text-align: center;
+border: 2px solid #5A7075;
+background: #5A7075 ;
+color: white !important;
+}
+.btns:hover{
+  background: #254238 ;
+  border: 2px solid #254238;
+}
+.classlabel{
+  color: #2B2B2B;
+  width: 480px;
+  height: 21px;
+  font-family: 'Outfit';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25.2px;
+  margin-bottom: 8px;
+}
+.form-control{
+  display: block;
+  width: 100%;
+  height: 44px;
+  padding: 12px;
+  font-family: 'Outfit';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.428571429;
+  color: #363636;
+  background-color: #CBCDC2 !important;
+  border: 1px solid black;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  border-radius: 8px;
+}
+
+.form-control:focus {
+  border-color: #0A241C;
+  border: 2px solid black;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(10, 36, 28, 0.6);
+}
+.form-label{
+  font-family: 'Outfit';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.428571429;
+  color: #363636;
+}
+.form-check-input{
+  margin-left: 5px;
+  background-color: #CBCDC2;
+  border-color: #2B2B2B;
+  color: #5A7075 ;
+}
+.form-check-input:checked{
+  border-color: #5A7075;
+  color: #5A7075 !important;
+  background-color: #5A7075;
+}
+.form-check-label{
+  margin-left: 8px;
+  font-family: 'Outfit';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.428571429;
+  color: #363636;
+}
+.h5{
+  font-size: 22px;
+  font-weight: 600;
+}
+#toast-warning {
+  transform: translate(-50%, -100%);
+  background-color: #5A7075;
+  width: fit-content;
+  margin-top: 35px;
+}
+.toast-body{
+  background-color: #5A7075;
+  color: white;
+  width: fit-content;
+  border-radius: 8px;
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+.btn-close{
+  color: #5A7075;
+  background-color: white;
+  margin: auto 5px auto 10px;
+}
+.btn-fa{
+  color: white;
+  background-color: #5A7075;
+  font-size: 20px;
+}
+.bg-toast{
+  background-color: #5A7075;
+  width: fit-content;
+  border-radius: 8px;
+}
+/* Style the input file */
+input[type="file"] {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #CBCDC2; /* Set your desired background color */
+  color: #363636; /* Text color for the file name */
+  cursor: pointer;
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  background-color: #CBCDC2; /* Button background color */
+  color: #363636; /* Button text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Outfit', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #3D4F52;
+}
+
+/* For Firefox */
+input[type="file"]::file-selector-button {
+  background-color: #CBCDC2;
+  color: black;
+  padding: 10px 20px;
+  border-right: 2px solid black;
+  border-radius: 5px;
+  font-family: 'Outfit', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+

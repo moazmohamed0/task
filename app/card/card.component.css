@@ -1,0 +1,190 @@
+.custom-bg {
+  background-color: #CBCDC2;
+}
+:root {
+  --primary-color: #CBCDC2;
+  --secondary-color: #0A241C;
+  --text-color: #2B2B2B;
+  --card-color: #E3E4DE;
+}
+header{
+  margin-top: 135px;
+}
+.container{
+  margin-bottom: 180px;
+}
+/* Brand Name */
+.brand-name {
+  font-family: 'Outfit', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+/* Card Styling */
+.card {
+  width: 100%;
+  background-color: #E3E4DE;
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+  position: relative;
+}
+
+.card-title {
+  color: var(--text-color);
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.card-text-body {
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+/* Image Frame */
+.img-frame {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.img-frame img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Counter Styling */
+.counter {
+  width: 120px;
+  height: 40px;
+  background-color: #B6B8AE;
+  border-radius: 20px;
+}
+
+.counter input {
+  border: none;
+  background: none;
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.counter button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 0;
+}
+
+/* Right Section: Order Summary */
+.order-summary {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.order-summary h5 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.order-summary p {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  color: #51524E;
+  margin-bottom: 16px;
+}
+
+.order-summary .total {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 48px;
+}
+
+.order-summary .btn-checkout {
+  font-size: 18px;
+  background-color: #5A7075;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+
+  /* Card Adjustments */
+  .img-frame {
+      width: 80px;
+      height: 80px;
+  }
+
+  .card {
+      padding: 15px;
+  }
+
+  .counter {
+      width: 100px;
+  }
+
+  .card-title {
+      font-size: 18px;
+  }
+
+  .card-text-body {
+      font-size: 16px;
+  }
+
+  .order-summary p,
+  .order-summary .total {
+      font-size: 16px;
+  }
+
+  .btn-checkout {
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+
+  /* Further adjustments for very small screens like mobile phones */
+  .img-frame {
+      width: 60px;
+      height: 60px;
+  }
+
+  .card {
+      padding: 10px;
+  }
+
+  .counter {
+      width: 90px;
+  }
+
+  /* Ensure text remains readable */
+  .card-title {
+      font-size: 16px;
+  }
+
+  .card-text-body {
+      font-size: 14px;
+  }
+
+  .order-summary p,
+  .order-summary .total {
+      font-size: 14px;
+  }
+
+  .btn-checkout {
+      font-size: 14px;
+  }
+}

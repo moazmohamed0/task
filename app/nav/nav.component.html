@@ -1,0 +1,65 @@
+<div class="container">
+  <nav class="navbar navbar-expand-lg" id="boxnav">
+    <div class="container-fluid" id="contentnav">
+      <a class="navbar-brand Outfit" routerLink="/home" id="logoname"><span class="material-symbols-outlined deploy">
+        deployed_code
+        </span>Furnish</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menu">
+          <li class="nav-item">
+            <a class="nav-link Outfit" aria-current="page" routerLink="/home">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle2 Outfit" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Product
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item Outfit" routerLink="/filters" (click)="navigateToFilter('Chair')">
+                <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--iconoir" width="22px" height="22px" class="cubi" color="#797B74" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                  <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.5">
+                    <path stroke-linecap="round" d="M21 7.353v9.294a.6.6 0 0 1-.309.525l-8.4 4.666a.6.6 0 0 1-.582 0l-8.4-4.666A.6.6 0 0 1 3 16.647V7.353a.6.6 0 0 1 .309-.524l8.4-4.667a.6.6 0 0 1 .582 0l8.4 4.667a.6.6 0 0 1 .309.524"></path>
+                    <path stroke-linecap="round" d="m3.528 7.294l8.18 4.544a.6.6 0 0 0 .583 0l8.209-4.56M12 21v-9"></path>
+                    <path fill="currentColor" d="m11.691 11.829l-7.8-4.334A.6.6 0 0 0 3 8.02v8.627a.6.6 0 0 0 .309.525l7.8 4.333A.6.6 0 0 0 12 20.98v-8.627a.6.6 0 0 0-.309-.524Z"></path>
+                  </g>
+                </svg>Chair</a></li>
+              <li><a class="dropdown-item Outfit" routerLink="/filters" (click)="navigateToFilter('Sofa')"><svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--iconoir" width="22px" height="22px" class="cubi" color="#797B74" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.5">
+                  <path stroke-linecap="round" d="M21 7.353v9.294a.6.6 0 0 1-.309.525l-8.4 4.666a.6.6 0 0 1-.582 0l-8.4-4.666A.6.6 0 0 1 3 16.647V7.353a.6.6 0 0 1 .309-.524l8.4-4.667a.6.6 0 0 1 .582 0l8.4 4.667a.6.6 0 0 1 .309.524"></path>
+                  <path stroke-linecap="round" d="m3.528 7.294l8.18 4.544a.6.6 0 0 0 .583 0l8.209-4.56M12 21v-9"></path>
+                  <path fill="currentColor" d="m11.691 11.829l-7.8-4.334A.6.6 0 0 0 3 8.02v8.627a.6.6 0 0 0 .309.525l7.8 4.333A.6.6 0 0 0 12 20.98v-8.627a.6.6 0 0 0-.309-.524Z"></path>
+                </g>
+              </svg>Sofa</a></li>
+              <li><a class="dropdown-item Outfit" routerLink="/filters" (click)="navigateToFilter('Tables and Desks')"><svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--iconoir" width="22px" height="22px" class="cubi" color="#797B74" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.5">
+                  <path stroke-linecap="round" d="M21 7.353v9.294a.6.6 0 0 1-.309.525l-8.4 4.666a.6.6 0 0 1-.582 0l-8.4-4.666A.6.6 0 0 1 3 16.647V7.353a.6.6 0 0 1 .309-.524l8.4-4.667a.6.6 0 0 1 .582 0l8.4 4.667a.6.6 0 0 1 .309.524"></path>
+                  <path stroke-linecap="round" d="m3.528 7.294l8.18 4.544a.6.6 0 0 0 .583 0l8.209-4.56M12 21v-9"></path>
+                  <path fill="currentColor" d="m11.691 11.829l-7.8-4.334A.6.6 0 0 0 3 8.02v8.627a.6.6 0 0 0 .309.525l7.8 4.333A.6.6 0 0 0 12 20.98v-8.627a.6.6 0 0 0-.309-.524Z"></path>
+                </g>
+              </svg>Tables and Desks</a></li>
+              <li><a class="dropdown-item Outfit" routerLink="/filters" (click)="navigateToFilter('Kitchen')"><svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--iconoir" width="22px" height="22px" class="cubi" color="#797B74" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.5">
+                  <path stroke-linecap="round" d="M21 7.353v9.294a.6.6 0 0 1-.309.525l-8.4 4.666a.6.6 0 0 1-.582 0l-8.4-4.666A.6.6 0 0 1 3 16.647V7.353a.6.6 0 0 1 .309-.524l8.4-4.667a.6.6 0 0 1 .582 0l8.4 4.667a.6.6 0 0 1 .309.524"></path>
+                  <path stroke-linecap="round" d="m3.528 7.294l8.18 4.544a.6.6 0 0 0 .583 0l8.209-4.56M12 21v-9"></path>
+                  <path fill="currentColor" d="m11.691 11.829l-7.8-4.334A.6.6 0 0 0 3 8.02v8.627a.6.6 0 0 0 .309.525l7.8 4.333A.6.6 0 0 0 12 20.98v-8.627a.6.6 0 0 0-.309-.524Z"></path>
+                </g>
+              </svg>Kitchen</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Outfit" routerLink="/contact">Content</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Outfit" routerLink="/about" aria-disabled="true">About</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search" id="buttons">
+          <button class="btn Outfit" routerLink="/login" type="submit" id="login">Login</button>
+          <button class="btn Outfit" routerLink="/signup" type="button" id="signup">Create Account</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</div>

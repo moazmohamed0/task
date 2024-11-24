@@ -1,0 +1,147 @@
+.switch {
+  display: flex;
+  flex-direction: column;
+}
+.top_section {
+  text-align: center;
+  justify-content: center;
+}
+.text {
+  padding: 103px 120px 0 120px;
+  text-align: center;
+  gap: 24px;
+}
+.title {
+  margin-bottom: 32px;
+  color: #0d272d;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 70.56px;
+}
+.des {
+  margin-bottom: 32px;
+  color: #2b2b2b;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.2px;
+}
+#shop_now {
+  background: #5a7075;
+  color: white;
+  width: Hug (113px) px;
+  height: Hug (47px) px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #5a7075;
+  margin-top: 40px;
+}
+.sofa {
+  padding: 0 107px;
+  display: flex;
+}
+.sofa img {
+  height: 500px;
+  object-fit: cover;
+  width: 100%;
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+/* .....................................................responsive between 991px to 375px.............................................................................. */
+@media (max-width: 991px) {
+  .text {
+    padding: 103px 80px 0 80px;
+  }
+  .sofa {
+    padding: 100px 70px 20px 70px;
+  }
+  .top_section {
+    order: 2;
+  }
+  .sofa {
+    order: 1;
+  }
+}
+@media (max-width: 561px) {
+  .text {
+    padding: 103px 50px 0 50px;
+  }
+  .top_section {
+    order: 2;
+  }
+  .sofa {
+    order: 1;
+  }
+  .sofa {
+    padding: 80px 50px 10px 50px;
+  }
+}
+@media (max-width: 501px) {
+  .text {
+    padding: 103px 30px 0 30px;
+  }
+  .sofa {
+    padding: 60px 30px 5px 30px;
+  }
+  .top_section {
+    order: 2;
+  }
+  .sofa {
+    order: 1;
+  }
+}
+@media (max-width: 461px) {
+  .text {
+    padding: 95px 20px 0 20px;
+  }
+  .sofa {
+    padding: 60px 30px 5px 30px;
+  }
+  .top_section {
+    order: 2;
+  }
+  .sofa {
+    order: 1;
+  }
+}
+@media (max-width: 441px) {
+  .text {
+    padding: 85px 15px 0 15px;
+  }
+  .sofa {
+    padding: 40px 20px 5px 20px;
+  }
+  .top_section {
+    order: 2;
+  }
+  .sofa {
+    order: 1;
+  }
+}
+@media (max-width: 411px) {
+  .text {
+    padding: 10px 0;
+  }
+  .sofa {
+    padding: 30px 15px 5px 15px;
+  }
+  .top_section {
+    order: 2;
+  }
+  .sofa {
+    order: 1;
+  }
+}
+@media (max-width: 375px) {
+  .text {
+    padding: 10px 0;
+  }
+  .sofa {
+    padding: 30px 15px 5px 15px;
+  }
+  .top_section {
+    order: 2;
+  }
+  .sofa {
+    order: 1;
+  }
+}
